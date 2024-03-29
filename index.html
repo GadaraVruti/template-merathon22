@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+
+    <title>V</title>
+    <style>
+       
+       
+            body {
+      margin: 0%;
+       padding: 0%;
+  font-family: Arial Black, sans-serif;
+    }
+    
+ .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	position: unset;
+ }
+ .screen {		
+	height: 750px;
+	width: 550px;	
+	box-shadow: 0px 0px 24px #000000;
+}
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+    
+}
+
+.img{
+position: absolute;
+top: 1px;
+width: 550px;
+height: 350px;
+left: 0px;
+
+}
+
+.hedder{
+    position: absolute;
+    background-color: #00000062;
+    top: 1px;
+    width: 345px;
+    height: 120px;
+    
+}
+.wb{
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    height: 240px;
+    width: 205px;
+    background-color: #7371748e;
+}
+.yellow{
+    position: absolute;
+    background-color: #ffe35ab2;
+    top: 241px;
+    height: 110px;
+    width: 345px;
+}
+.bw{
+    position: absolute;
+    background-color: #5b5c6291;
+    top: 241px;
+    height: 110px;
+    width: 205px;
+    right: 0px;
+}
+.blue{
+    position: absolute;
+    background-color: #38BADA;
+    top: 351px;
+    height: 110px;
+    width: 205px;
+    right: 0px;
+}
+
+.white{
+    position: absolute;
+    background-color: #F7F9F8;
+    top: 461px;
+    height: 289px;
+    width: 345px;
+    left: 0px;
+}
+.s{
+    position: absolute;
+    top: 15px;
+    left: 38px;
+    background-color: #3EBBD9;
+    height: 7px;
+    width: 27px;
+}
+.u{
+    position: absolute;
+    top: 13px;
+    left: 35px;
+text-align: center;
+font-size: 40px;
+color: white;
+font-family: arial black;
+height: 7px;
+    width: 30px;
+}
+.t{
+    position: absolute;
+    top: 65px;
+    left: 35px;
+text-align: center;
+font-size: 15px;
+color: white;
+font-family: arial black;
+height: 7px;
+    width: 30px;
+}
+
+.c1{
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    top: 32px;
+    right: 30px;
+
+}
+.c2{
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    top: 62px;
+    right: 30px;
+
+}
+.c3{
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    top: 93px;
+    right: 30px;
+
+}
+.c4{
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    top: 123px;
+    right: 30px;
+
+}
+.c5{
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    top: 152px;
+    right: 30px;
+
+}
+.c6{
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    top: 182px;
+    right: 30px;
+
+}
+.java{
+    position: absolute;
+    top: 28px;
+    right: 55px;
+    font-size: 15px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+
+}
+.ios{
+    position: absolute;
+    top: 58px;
+    right: 55px;
+    font-size: 15px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+
+}
+.ja{
+    position: absolute;
+    top: 88px;
+    right: 55px;
+    font-size: 15px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+
+}
+.php{
+    position: absolute;
+    top: 118px;
+    right: 55px;
+    font-size: 15px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+
+}
+.c{
+    position: absolute;
+    top: 148px;
+    right: 55px;
+    font-size: 15px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+
+}
+.python{
+    position: absolute;
+    top: 177px;
+    right: 55px;
+    font-size: 15px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+    font-family: segoe ui black;
+
+
+}
+.learn{
+    position: absolute;
+    top: 248px;
+    left: 28px;
+    font-size: 38px;
+    color: white;
+    text-align: end;
+}
+.prog{
+    position: absolute;
+    top: 288px;
+    left: 28px;
+    font-size: 38px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+}
+.add{
+    position: absolute;
+    top: 260px;
+    right: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: end;
+    color: white;
+
+}
+.add1{
+    position: absolute;
+    top: 276px;
+    right: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: end;
+    color: white;
+}
+.phone{
+    position: absolute;
+    top: 292px;
+    right: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: end;
+    color: white;
+
+}
+.mail{
+    position: absolute;
+    top: 307px;
+    right: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: end;
+    color: white;
+
+}
+.web{
+    position: absolute;
+    top: 322px;
+    right: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: end;
+    color: white;
+
+}
+
+.first{
+    position: absolute;
+    top: 355px;
+    left: 28px;
+    font-size: 34px;
+    color: #EC5461;
+    text-align: end;
+    font-family:sans-serif ;
+    font-weight: 800;
+}
+.start{
+    position: absolute;
+    top: 398px;
+    left: 28px;
+    font-size: 17px;
+    color: #727272;
+    text-align: end;
+    font-family:Arial BLACK ;
+}
+.a{
+    position: absolute;
+    top: 421px;
+    left: 28px;
+    font-size: 14px;
+    color: #727272;
+    text-align: end;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 500;
+}
+
+.circle1 {
+    position: absolute;
+    top: 380px;
+    right: 130px;
+    width: 50px;
+    height: 50px;
+    background-color: #bbbbbb00;
+border: 7px solid white;    
+border-radius: 50%;
+    display: inline-block;
+}
+.circle2 {
+    position: absolute;
+    top: 390px;
+    right: 140px;
+    width: 30px;
+    height: 30px;
+    background-color: #bbbbbb00;
+border: 7px solid white;    
+border-radius: 50%;
+    display: inline-block;
+}
+.sq{
+position: absolute;
+background-color: #39BBDB;
+height: 30px;
+width: 30px;
+top: 376px;
+    right: 126px;
+
+}
+.code{
+position: absolute;
+font-size: 19px;
+font-family: arial black;
+top: 398px;
+    right: 52px;
+    color: white;
+
+}
+.logo{
+position: absolute;
+font-size: 8px;
+font-family: Arial, Helvetica, sans-serif;
+top: 419px;
+    right: 30px;
+    color: white;
+
+
+}
+
+
+.coded{
+position: absolute;
+top: 494px;
+left: 28px;
+font-size: 30px;
+color: #6D6F6E;
+font-family: verdana ;
+font-weight: bolder;
+
+}
+.ourcompany{
+position: absolute;
+top: 480px;
+left: 29px;
+font-size: 13px;
+font-family:Arial, Helvetica, sans-serif;
+color: #C05E6D;
+
+
+}
+
+.co{
+    position: absolute;
+    top: 498px;
+    left: 144px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #6D6F6E;
+    font-family: tahoma;
+    font-weight: 80;
+
+}
+.ab{
+    position: absolute;
+    top: 534px;
+    left: 29px;
+    font-size: 12px;
+    color: #6D6F6E;
+    text-align: end;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 500;
+}
+.para{
+    position: absolute;
+    top: 560px;
+    left: 29px;
+    color: #B8BAB9;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 9px;
+    text-align:justify;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    background-color: rgba(173, 216, 230, 0);
+  inset-block: 558px 50px;
+  height: 100px;
+  width: 300px;
+}
+.para1{
+    position: absolute;
+    top: 600px;
+    left: 29px;
+    color: #B8BAB9;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 9px;
+    text-align:justify;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    background-color: rgba(173, 216, 230, 0);
+  inset-block: 650px 50px;
+  height: 100px;
+  width: 300px;
+}
+.second{
+position: absolute;
+top: 500px;
+right: 28px;
+font-size: 30px;
+color: #3BBBE0;
+font-family: tahoma;
+font-weight: 900;
+
+}
+.end{
+position: absolute;
+top: 540px;
+right: 30px;
+font-size: 15px;
+color: #6F6F6F;
+font-weight: 900;
+
+}
+.trophy{
+position: absolute;
+top: 564px;
+right:  20px;
+height: 50px;
+width: 60px;
+
+}
+.earn{
+    position: absolute;
+    top: 620px;
+    right: 20px;
+    text-align: end;
+    font-size: 13px;
+    color: #6F6F6F;
+}
+.last{
+    position: absolute;
+    right: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 7px;
+    text-align:justify;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    background-color: rgba(173, 216, 230, 0);
+  inset-block: 660px 50px;
+  height: 100px;
+  width: 150px;
+  color: #B8BAB9;}
+.lastt{
+    position: absolute;
+    top: 690px;
+    right: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 7px;
+  
+    color: #B8BAB9;
+  }
+  .lasttt{
+    position: absolute;
+    top: 670px;
+    right: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 7px;
+    color: #B8BAB9;
+    text-align:justify;
+    word-spacing: 4.6px;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    background-color: rgba(173, 216, 230, 0);
+  inset-block: 680px 50px;
+  height: 100px;
+  width: 150px;
+  }
+.red{
+    position: absolute;
+    height: 6px;
+    width: 345px;
+    top: 744px;
+    background-color: #EA5D66;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width:500px ){
+        body {
+          margin: 0%;
+           padding: 0%;
+      font-family: Arial Black, sans-serif;
+        }
+        
+     .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        position: unset;
+     }
+     .screen {		
+        height: 550px;
+        width: 370px;	
+        box-shadow: 0px 0px 24px #000000;
+        position: fixed;
+    }
+    .screen__content {
+        z-index: 1;
+        position: relative;	
+        height: 100%;
+    }
+    .img{
+position: absolute;
+top: 1px;
+width: 370px;
+height: 270px;
+left: 0px;
+
+}
+
+.hedder{
+    position: absolute;
+    background-color: #00000062;
+    top: 1px;
+    width: 230px;
+    height: 100px;
+    
+}
+.wb{
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    height: 181px;
+    width: 140px;
+    background-color: #7371748e;
+}
+.yellow{
+    position: absolute;
+    background-color: #ffe35ab2;
+    top: 181px;
+    height: 90px;
+    width: 230px;
+}
+.bw{
+    position: absolute;
+    background-color: #5b5c6291;
+    top: 181px;
+    height: 90px;
+    width: 140px;
+    right: 0px;
+}
+.blue{
+    position: absolute;
+    background-color: #38BADA;
+    top: 271px;
+    height: 90px;
+    width: 140px;
+    right: 0px;
+}
+
+.white{
+    position: absolute;
+    background-color: #F7F9F8;
+    top: 361px;
+    height: 189px;
+    width: 230px;
+    left: 0px;
+}
+.s{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #3EBBD9;
+    height: 6px;
+    width: 25px;
+}
+.u{
+    position: absolute;
+    top: 11px;
+    left: 18px;
+text-align: center;
+font-size: 36px;
+color: white;
+font-family: arial black;
+height: 7px;
+    width: 30px;
+}
+.t{
+    position: absolute;
+    top: 55px;
+    left: 20px;
+text-align: center;
+font-size: 12px;
+color: white;
+font-family: arial black;
+height: 7px;
+    width: 30px;
+}
+
+.c1{
+    position: absolute;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    top: 32px;
+    right: 20px;
+
+}
+.c2{
+    position: absolute;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    top: 57px;
+    right: 20px;
+
+}
+.c3{
+    position: absolute;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    top: 84px;
+    right: 20px;
+
+}
+.c4{
+    position: absolute;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    top: 110px;
+    right: 20px;
+
+}
+.c5{
+    position: absolute;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    top: 135px;
+    right: 20px;
+
+}
+.c6{
+    position: absolute;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    top: 162px;
+    right: 20px;
+
+}
+.java{
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    font-size: 13px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+
+}
+.ios{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    font-size: 13px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+
+}
+.ja{
+    position: absolute;
+    top: 78px;
+    right: 40px;
+    font-size: 13px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+
+}
+.php{
+    position: absolute;
+    top: 104px;
+    right: 40px;
+    font-size: 13px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+
+}
+.c{
+    position: absolute;
+    top: 128px;
+    right: 40px;
+    font-size: 13px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+
+}
+.python{
+    position: absolute;
+    top: 154px;
+    right: 40px;
+    font-size: 13px;
+    color: white;
+    text-align: end;
+    font-family: tahoma;
+    font-weight: 900;
+    font-family: segoe ui black;
+
+
+}
+.learn{
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    font-size: 28px;
+    color: white;
+    text-align: end;
+}
+.prog{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    font-size: 28px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+}
+.add{
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    text-align: end;
+    color: white;
+
+}
+.add1{
+    position: absolute;
+    top: 210px;
+    right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7px;
+    text-align: end;
+    color: white;
+}
+.phone{
+    position: absolute;
+    top: 218px;
+    right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7px;
+    text-align: end;
+    color: white;
+
+}
+.mail{
+    position: absolute;
+    top: 228px;
+    right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    text-align: end;
+    color: white;
+
+}
+.web{
+    position: absolute;
+    top: 240px;
+    right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    text-align: end;
+    color: white;
+
+}
+
+.first{
+    position: absolute;
+    top: 272px;
+    left: 20px;
+    font-size: 28px;
+    color: #EC5461;
+    text-align: end;
+    font-family:sans-serif ;
+    font-weight: 800;
+}
+.start{
+    position: absolute;
+    top: 312px;
+    left: 20px;
+    font-size: 15px;
+    color: #727272;
+    text-align: end;
+    font-family:Arial BLACK ;
+}
+.a{
+    position: absolute;
+    top: 332px;
+    left: 20px;
+    font-size: 9px;
+    color: #727272;
+    text-align: end;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 200;
+}
+
+.circle1 {
+    position: absolute;
+    top: 295px;
+    right: 80px;
+    width: 40px;
+    height: 40px;
+    background-color: #bbbbbb00;
+border: 7px solid white;    
+border-radius: 50%;
+    display: inline-block;
+}
+.circle2 {
+    position: absolute;
+    top: 305px;
+    right: 89.5px;
+    width: 20px;
+    height: 20px;
+    background-color: #bbbbbb00;
+border: 7px solid white;    
+border-radius: 50%;
+    display: inline-block;
+}
+.sq{
+position: absolute;
+background-color: #39BBDB;
+height: 30px;
+width: 30px;
+top: 286px;
+    right: 70px;
+
+}
+.code{
+position: absolute;
+font-size: 14px;
+font-family: arial black;
+top: 310px;
+    right: 24px;
+    color: white;
+
+}
+.logo{
+position: absolute;
+font-size: 6px;
+font-family: Arial, Helvetica, sans-serif;
+top: 327px;
+    right: 6px;
+    color: white;
+
+
+}
+
+
+.coded{
+position: absolute;
+top: 373px;
+left: 20px;
+font-size: 20px;
+color: #6D6F6E;
+font-family: verdana ;
+font-weight: bolder;
+
+}
+.ourcompany{
+position: absolute;
+top: 365px;
+left: 20px;
+font-size: 9px;
+font-family:Arial, Helvetica, sans-serif;
+color: #C05E6D;
+
+
+}
+
+.co{
+    position: absolute;
+    top: 375px;
+    left: 97px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: #6D6F6E;
+    font-family: tahoma;
+    font-weight: 80;
+
+}
+.ab{
+    position: absolute;
+    top: 398px;
+    left: 20px;
+    font-size: 8.5px;
+    color: #6D6F6E;
+    text-align: end;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 500;
+}
+.para{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    color: #B8BAB9;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 5.5px;
+    text-align:justify;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    background-color: rgba(173, 216, 230, 0);
+  inset-block: 415px 50px;
+  height: 50px;
+  width: 200px;
+}
+.para1{
+    position: absolute;
+    top: 600px;
+    left: 20px;
+    color: #B8BAB9;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 5.5px;
+    text-align:justify;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    background-color: rgba(173, 216, 230, 0);
+  inset-block: 468px 50px;
+  height: 50px;
+  width: 200px;
+}
+.second{
+position: absolute;
+top: 385px;
+right: 20px;
+font-size: 20px;
+color: #3BBBE0;
+font-family: tahoma;
+font-weight: 900;
+
+}
+.end{
+position: absolute;
+top: 410px;
+right: 20px;
+font-size: 10px;
+color: #6F6F6F;
+font-weight: 900;
+
+}
+.trophy{
+position: absolute;
+top: 424px;
+right:  15px;
+height: 35px;
+width: 45px;
+
+}
+.earn{
+    position: absolute;
+    top: 460px;
+    right: 20px;
+    text-align: end;
+    font-size: 9px;
+    color: #6F6F6F;
+}
+.last{
+    position: absolute;
+    left: 262px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 4px;
+    text-align:justify;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    background-color: rgba(173, 216, 230, 0);
+  inset-block: 488px 5px;
+  height: 50px;
+  width: 90px;
+  color: #B8BAB9;}
+.lastt{
+    position: absolute;
+    top: 505px;
+    right: 19px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 4px;
+    word-spacing: 7px;
+
+  
+    color: #B8BAB9;
+  }
+  .lastttt{
+    position: absolute;
+    top: 510px;
+    right: 19px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 4px;
+
+  
+    color: #B8BAB9;
+  }
+  .lasttt{
+    position: absolute;
+    top: 670px;
+    right: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 4px;
+    color: #B8BAB9;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    background-color: rgba(173, 216, 230, 0);
+  inset-block: 499px 50px;
+  height: 50px;
+  width: 90px;
+  }
+.red{
+    position: absolute;
+    height: 5px;
+    width: 230px;
+    top: 545px;
+    background-color: #EA5D66;
+}
+    
+}
+
+
+
+
+        </style>
+</head>
+<body>
+<div class="container">
+<div class="screen">
+    <div class="screen__content">
+      
+<img src="image.jpg" class="img">
+<div class="hedder"></div>
+<div class="yellow"></div>
+<div class="wb"></div>
+<div class="bw"></div>
+<div class="blue"></div>
+<div class="white"></div>
+
+<div class="s"></div>
+<div class="u">U</div>
+<div class="t">TRENDING<br><h  style="font-family: Arial, Helvetica, sans-serif;">SOFT</h></div>
+
+<div class="c1"></div>
+<div class="c2"></div>
+<div class="c3"></div>
+<div class="c4"></div>
+<div class="c5"></div>
+<div class="c6"></div>
+
+
+<div class="java">Java</div>
+<div class="ios">ios / Swift</div>
+<div class="ja">JavaScript</div>
+<div class="php">PHP</div>
+<div class="c">C++</div>
+<div class="python">Python</div>
+
+
+<div class="learn">LEARN</div>
+<div class="prog">PROGRAMING</div>
+
+
+<div class="add">:<h style="font-family: Arial black">ADDRESS</h></div>
+<div class="add1">MAIN ATREET, LONDON, 12/B</h></div>
+<div class="phone">( 012 ) 345 678 901 &nbsp;  :<h style="font-family: Arial black;  font-size: 9px;" >PHONE</h></div>
+<div class="mail">example@email.com  &nbsp; :<h style="font-family: Arial black; font-size: 9px;">MAIL</h></div>
+<div class="web">www.website.com &nbsp;:<h style="font-family: Arial black">WEB</h></div>
+
+
+<div class="first">#FIRST</div>
+<div class="start"><b style="font-family: arial black;">START IT WITH US !</b></div>
+<div class="a">100$ / MONTH INCLUDE ONLINE COURSES</div>
+
+
+
+<div class="circle1"></div>
+<div class="circle2"></div>
+<div class="sq"></div>
+
+
+<div class="code">CODED</div>
+<div class="logo">LOGO OF THE COMPANY</div>
+
+
+<img src="trophy.png" class="trophy">
+
+<div class="coded">CODED</div>
+<div class="ourcompany"><b>OUR COMPANY</b></div>
+<div class="co">CO. </div>
+<div class="ab">LOREM IPSUM DOLOR SIT AMET EST HABEMUS</div>
+
+
+<div class="para">LOREM IPSUM DOLOR SIT AMET, EST HABEMUS LOBORTIS ACCOMMODARE NE. NE MUTAT INSOLENS URBANITAS QUI. CUESSE VIDE DICAM SEA, ID ELIGENDI NOMINATI CONSTITUTOREST. IUS ACCUMSAN FORENSIBUS POSIDONIUM AD, HIS IDPAULOFFENDIVELIT BLANDIT OCURRERET EX VIM, VIXNOBIS IUDICO ET </div>
+<div class="para1">LOREM IPSUM DOLOR SIT AMET, EST HABEMUS LOBORTIS ACCOMMODARE NE. NE MUTAT INSOLENS URBANITAS QUI. CUESSE VIDE DICAM SEA, ID ELIGENDI NOMINATI CONSTITUTOREST. IUS ACCUMSAN FORENSIBUS POSIDONIUM AD, HIS IDPAULOFFENDIVELIT BLANDIT OCURRERET EX VIM, VIXNOBIS IUDICO ET</div>
+
+
+<div class="second">#SECOND </div>
+<div class="end">END IT WITH US !</div>
+<div class="earn">EARN <br>YOUR REWARD</div>
+<div class="last">LOREM IPSUM DOLOR SIT AMET.<h style="word-spacing: 2px;">EST HABEMUS LOBORTIS ACCOMMODARE NE. </h></div>
+<div class="lasttt"> NE MUTAT INSOLENS URBANITAS QUI, </div>
+
+<div class="lastt">CURESSE VIDE DICAM SEA.</div>
+
+<div class="lastttt">CURESSE VIDE DICAM SEA.</div>
+<div class="red"></div>
+
+
+
+</div>
+</div>
+</div>
+
+		</body>
+		</html>
